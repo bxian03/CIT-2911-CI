@@ -6,8 +6,7 @@ name: Build and deploy Python app to Azure Web App - ACIT-2911-test
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main, development ]
   workflow_dispatch:
 
 jobs:
